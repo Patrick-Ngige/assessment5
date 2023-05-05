@@ -5,7 +5,7 @@
         while (have_posts()): the_post() ;?>
 
         <?php // require 'content.php' ?>
-        <?php get_template_part('page-food', get_post_format()) ?>
+        <?php get_template_part('content', get_post_format()) ?>
         
     <?php endwhile; ?>
 

@@ -7,6 +7,7 @@ function CPT_setup(){
 }
 
 add_action('init', 'CPT_setup');
+
 /**
  * THEME SUPPORT
  */
@@ -22,7 +23,7 @@ function foods_post_type()
 {
     $labels = [
         'name' => 'Foods',
-        'singular_name' => 'Food',
+        'singular_name' => 'Foods',
         'add_new' => 'Add Food Item',
         'all_items' => 'All Foods',
         'add_new_item' => 'Edit Item',
